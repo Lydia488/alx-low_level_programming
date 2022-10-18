@@ -1,12 +1,11 @@
-<stdio.h>
+#include <studio.h>
 /**
- * main- print a line using puts 
+ * main -print a line of code using puts
  *
- * return:o
- */
-int main (void)
-
+ * Return:0
+ * */
+int main(void)
 {
 	puts("\"programming is like building a multilingual puzzle");
-	return (o);
+	return (0);
 }
