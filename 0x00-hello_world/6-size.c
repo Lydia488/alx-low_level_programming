@@ -3,7 +3,6 @@
  * main - Entry point
  *
  * Description: 'The program description'
- *
  * Return: Always 0 (success)
  */
 int main(void)
