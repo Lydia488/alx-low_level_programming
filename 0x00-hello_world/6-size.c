@@ -1,17 +1,17 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Description: 'The program description'
- * Return: Always 0 (success)
- */
+* main - Entry point
+*
+* Description: 'The program description'
+* Return: Always 0 (success)
+*/
 int main(void)
 {
-	char c;
-	int i;
-	long int l;
-	long long int ll;
-	float f;
+char c;
+int i;
+long int l;
+long long int ll;
+float f;
 printf("Size of a char: %lu byte(s)\n", sizeof(c));	
 printf("Size of an int: %lu byte(s)\n", sizeof(i));
 printf("Size of a long int: %lu byte(s)\n", sizeof(l));
