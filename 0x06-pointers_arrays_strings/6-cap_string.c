@@ -1,20 +1,33 @@
 
 #include "main.h"
-
 /**
- *string_toupper - a function that changes all lower of a string to upper
+ *cap_string - a function that capitalizes all words of a string
  *@n: input string
- *Return: capitialized string
- */
+* Return: caps on first letter of a separator
+*/
 
-char *string_toupper(char *n)
+char *cap_string(char *n)
 {
-int i;
+int i, x;
+int let = 32;
+int separators[] = {',', ';', '.', '?', '"',
+'(', ')', '{', '}', ' ', '\n', '\t'};
 
 for (i = 0; n[i] != '\0'; i++)
 {
 if (n[i] >= 'a' && n[i] <= 'z')
-n[i] = n[i] - 32;
+{
+n[i] = n[i] - let;
+}
+let = 0;
+for (x = 0; x <= 12; x++)
+{
+if (n[i] == separators[x])
+{
+x = 12;
+let = 32;
+}
+}
 }
 return (n);
 }
