@@ -1,9 +1,7 @@
 #include "main.h"
 /**
  *main - Enrty point
- *
- *Description: print _putchar
- *
+ *Description: print _putchar followed by a new line
  *Return: 0 if successfull
  */
 int main(void)
