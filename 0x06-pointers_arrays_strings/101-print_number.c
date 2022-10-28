@@ -12,7 +12,7 @@ if (n < 0)
 {
 num1 = -n;
 _putchar('-');
-} (else)
+} else
 {
 num1 = n;
 }
